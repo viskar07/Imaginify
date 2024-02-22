@@ -14,23 +14,24 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Environment Variables
+Here are the environment variables you can use in this project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **NEXT_PUBLIC_SERVER_URL**: The URL of the server.
+- **MONGODB_URL**: The URL for connecting to MongoDB.
+- **NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY**: The public key for Clerk authentication.
+- **CLERK_SECRET_KEY**: The secret key for Clerk authentication.
+- **WEBHOOK_SECRET**: The webhook secret for Clerk authentication.
+- **NEXT_PUBLIC_CLERK_SIGN_IN_URL**: The URL for Clerk sign-in.
+- **NEXT_PUBLIC_CLERK_SIGN_UP_URL**: The URL for Clerk sign-up.
+- **NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL**: The URL to redirect after Clerk sign-in.
+- **NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL**: The URL to redirect after Clerk sign-up.
+- **NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME**: The Cloudinary cloud name.
+- **CLOUDINARY_API_KEY**: The Cloudinary API key.
+- **CLOUDINARY_API_SECRET**: The Cloudinary API secret.
+- **STRIPE_SECRET_KEY**: The secret key for Stripe.
+- **STRIPE_WEBHOOK_SECRET**: The webhook secret for Stripe.
+- **NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY**: The public key for Stripe.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Make sure to set these variables with appropriate values before running the application.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
