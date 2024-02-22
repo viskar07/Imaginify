@@ -15,23 +15,25 @@ bun dev
 ```
 
 # Environment Variables
+
 Here are the environment variables you can use in this project:
 
-- **NEXT_PUBLIC_SERVER_URL**: The URL of the server.
-- **MONGODB_URL**: The URL for connecting to MongoDB.
-- **NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY**: The public key for Clerk authentication.
-- **CLERK_SECRET_KEY**: The secret key for Clerk authentication.
-- **WEBHOOK_SECRET**: The webhook secret for Clerk authentication.
-- **NEXT_PUBLIC_CLERK_SIGN_IN_URL**: The URL for Clerk sign-in.
-- **NEXT_PUBLIC_CLERK_SIGN_UP_URL**: The URL for Clerk sign-up.
-- **NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL**: The URL to redirect after Clerk sign-in.
-- **NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL**: The URL to redirect after Clerk sign-up.
-- **NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME**: The Cloudinary cloud name.
-- **CLOUDINARY_API_KEY**: The Cloudinary API key.
-- **CLOUDINARY_API_SECRET**: The Cloudinary API secret.
-- **STRIPE_SECRET_KEY**: The secret key for Stripe.
-- **STRIPE_WEBHOOK_SECRET**: The webhook secret for Stripe.
-- **NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY**: The public key for Stripe.
+- <small>**NEXT_PUBLIC_SERVER_URL**: The URL of the server.</small>
+- <small>**MONGODB_URL**: The URL for connecting to MongoDB.</small>
+- <small>**NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY**: The public key for Clerk authentication.</small>
+- <small>**CLERK_SECRET_KEY**: The secret key for Clerk authentication.</small>
+- <small>**WEBHOOK_SECRET**: The webhook secret for Clerk authentication.</small>
+- <small>**NEXT_PUBLIC_CLERK_SIGN_IN_URL**: The URL for Clerk sign-in.</small>
+- <small>**NEXT_PUBLIC_CLERK_SIGN_UP_URL**: The URL for Clerk sign-up.</small>
+- <small>**NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL**: The URL to redirect after Clerk sign-in.</small>
+- <small>**NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL**: The URL to redirect after Clerk sign-up.</small>
+- <small>**NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME**: The Cloudinary cloud name.</small>
+- <small>**CLOUDINARY_API_KEY**: The Cloudinary API key.</small>
+- <small>**CLOUDINARY_API_SECRET**: The Cloudinary API secret.</small>
+- <small>**STRIPE_SECRET_KEY**: The secret key for Stripe.</small>
+- <small>**STRIPE_WEBHOOK_SECRET**: The webhook secret for Stripe.</small>
+- <small>**NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY**: The public key for Stripe.</small>
 
-Make sure to set these variables with appropriate values before running the application.
+<small>Make sure to set these variables with appropriate values before running the application.</small>
+
 
